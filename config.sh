@@ -7,7 +7,7 @@ fi
 
 # continue with the rest of the script
 
-cd LouisOS-install-scripts
+cd LouisOS
 chmod +x config/dots-2.0/install.sh 
 cd config/dots-2.0
 ./install.sh
@@ -17,4 +17,5 @@ cp -r kitty ~/.config
 cp -r neofetch ~/.config
 cp -r nvim ~/.config 
 cp -r neofetchbin/neofetch /usr/bin
+cp -r .zshrc ~/
 
